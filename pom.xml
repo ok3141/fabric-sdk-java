@@ -556,6 +556,10 @@
                   <configuration>
                     <relocations>
                       <relocation>
+                        <pattern>android.annotation</pattern>
+                        <shadedPattern>org.hyperledger.deps.aan</shadedPattern>
+                      </relocation>
+                      <relocation>
                         <pattern>org.apache</pattern>
                         <shadedPattern>org.hyperledger.deps.oap</shadedPattern>
                       </relocation>
